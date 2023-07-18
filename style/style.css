@@ -1,0 +1,166 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+ 
+}
+
+span{
+    color:#FF42A5;
+}
+.yt-logo{
+    color: red;
+    padding-right: .9rem;
+    padding-left: 0.9rem;
+}
+.tiktok-logo{
+    color: black;
+}
+/*header start*/
+ .last-list-item{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    padding-left: px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+} 
+
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 0 240px;
+   
+}
+.header-title{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/*header finish*/
+
+/*banner start*/
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.banner-description{
+   width: 40%;
+   padding: 150px  200px;
+}
+.banner-img{
+    width: 50%;
+    padding-right:100px ;
+}
+
+.banner-img img{
+    width: 100%;
+
+}
+.banner-h2-tag{
+    color: #0B0223;
+    font-size:2rem;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+
+}
+.banner-h1-tag{
+    font-size: 4.5rem;
+    margin: 0;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.header-button1{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 48px;
+    padding: 15px 40px;
+    background-color:#FF42A5 ;
+    border: none;
+}
+.header-button2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 48px;
+    padding: 15px 40px;
+    background: #4EC5F7;
+    border: none;
+}
+/*banner finish*/
+
+
+
+@media screen and (max-width:576px) {
+    /*-----------*/
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+       flex-direction: column;
+       align-items: center;
+        
+    }
+    nav li{
+        padding: 20px;
+    }
+    .last-list-item{
+        width: 15rem;
+        height: 1.5rem;
+    }
+    /*-----------*/
+    /*-----------*/
+
+    .banner-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .banner-img{
+         width: 80%;
+   
+    } 
+    .banner-img img{
+        padding-left: 40px;
+    }
+    .banner-description{
+         width: 80%;
+        padding: 20px;
+        
+
+   }
+   }
