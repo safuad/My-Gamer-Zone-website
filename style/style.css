@@ -120,6 +120,44 @@ nav li a{
     border: none;
 }
 /*banner finish*/
+/*main-section-for-banner*/
+.main-section-for-banner{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.banner-img-3{
+    width: 40rem;
+}
+.banner-description-h1{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-description-p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.span-quote{
+    font-size: 1.3rem;
+    color: #534C64;
+    font-weight: 600;
+}
+
+.banner-description-2{
+    text-align: end;
+}
+
 
 /*another start*/
 .banner-h1-tag2{
@@ -314,24 +352,43 @@ nav li a{
 .button-icon{
     display: flex;
     width: 243px;
-height: 3.87rem;
+height: 4rem;
 flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
-border: 1px solid red;
 margin: auto;
+padding-left: 10px;
+
 
 }
+.section-button{
+   padding: 10px;
+}
 .button-section{
-   width: 1200px;
+   width: 90%;
+   height: 8rem;
+   margin: 0 auto;
+   padding: 100px 0px;
+ 
 }
  .div-five{
     display: flex;
    align-items: center;
+   padding-left: 80px;
+  
  }
+ 
+ 
  .div-four{
     display: flex;
+    padding-left: 200px;
  }
+ .button-icon:hover{
+    border: 3px solid #FF42A5;
+    color:  #FF42A5;
+    font-weight: 700;
+ }
+
 
 
 /* section finish*/
@@ -474,6 +531,20 @@ footer{
     }
     /*-----------*/
     /*-----------*/
+
+    .main-section-for-banner{
+        flex-direction: column;
+    }
+    .banner-img-3{
+    width: 25rem;
+    }
+    .banner-description-2{
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    /*-----------*/
+    /*-----------*/
     .second-main-section{
         flex-direction: column-reverse;
         margin-top: 10px;
@@ -513,7 +584,22 @@ footer{
     width: 150px;
     margin-top: 50px;
     margin-left: -100px;
+
 }
+    /*-----------*/
+    /*-----footer-section------*/
+  
+    .button-section{
+        height: auto;
+
+    }
+   .div-five, .div-four{
+   flex-direction: column;
+    padding: 0;
+    
+   }
+
+
     /*-----------*/
     /*-----footer-section------*/
 
