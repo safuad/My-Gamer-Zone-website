@@ -352,12 +352,12 @@ nav li a{
 .button-icon{
     display: flex;
     width: 243px;
-height: 4rem;
-flex-shrink: 0;
-border-radius: 50px;
-background: #FFF;
-margin: auto;
-padding-left: 10px;
+    height: 4rem;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin: auto;
+    padding-left: 10px;
 
 
 }
@@ -591,6 +591,7 @@ footer{
   
     .button-section{
         height: auto;
+        padding: 20px 0;
 
     }
    .div-five, .div-four{
