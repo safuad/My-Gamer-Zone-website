@@ -536,11 +536,11 @@ footer{
         flex-direction: column;
     }
     .banner-img-3{
-    width: 25rem;
+    width: 21rem;
     }
     .banner-description-2{
         align-items: center;
-        padding-right: 20px;
+        padding-right: 0px;
     }
 
     /*-----------*/
