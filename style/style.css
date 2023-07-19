@@ -149,13 +149,14 @@ nav li a{
 
 .all-images-section{
     padding-top: 50px;
-    width: 1200px;
+    width: 1300px;
     height: 350px;
     display: flex;
     margin: auto;
+    padding-left: 200px;
 }
 .cards{
-    width: 250px;
+    width: 400px;
     padding: 0 10px;
 }
 .cards-title{
@@ -212,9 +213,6 @@ nav li a{
     display: flex;
     margin-top: 100px;
     /* width: 100%; */
-   
-   
-    
 }
 .main-section-2 > h1{
     text-align: right;
@@ -235,7 +233,6 @@ nav li a{
 .main-section-2 > p{
     color: #534C64;
     text-align: right;
-    font-family: Work Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -252,7 +249,7 @@ nav li a{
     width: 500px
 }
 .small-img{
-    /* position: relative; */
+    position: relative;
     margin-top: -180px;
     margin-left: -100px;
 }
@@ -265,6 +262,127 @@ nav li a{
 .small-img img{
     width: 200px;
 }
+/* section finish*/
+/*another section start*/
+.second-main-section{
+    display: flex;
+    margin-top: 100px;
+}
+.main-section-description > h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+}
+.main-section-description > p{
+    color: #534C64;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height:25px ;
+}
+.main-section-description{
+    /* width: 25%; */
+    border: 1px solid rgb(28, 25, 22,);
+    margin-top: 100px;
+    text-align: center;
+    justify-content: space-between;
+   
+    padding-left:-100px;
+    /* width: 500px; */
+}
+.main-section-img-2{
+    width: 40%;
+    padding-left: 200px;
+   
+}
+.main-section-img-2 img{
+    width: 400px;
+    padding-top: 50px
+}
+
+.small-img-2{
+    position: relative;
+    margin-top: -150px;
+    margin-left: 250px;
+   
+}
+.small-img-2 img{
+    width: 200px;
+} 
+/* section finish*/
+/*another section start*/
+.button-icon{
+    display: flex;
+    width: 243px;
+height: 3.87rem;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+border: 1px solid red;
+margin: auto;
+
+}
+.button-section{
+   width: 1200px;
+}
+ .div-five{
+    display: flex;
+   align-items: center;
+ }
+ .div-four{
+    display: flex;
+ }
+
+
+/* section finish*/
+/*another section start*/
+footer{
+    background: #0B0223;
+    text-align: center;
+    min-height: 400px;
+}
+    .footer-div-1{
+      text-align: center;
+      padding-top: 20px;
+      
+   }
+   .header-title2{
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 700;
+   }
+
+   .footer-div-2{
+    display: flex;
+    text-align: center;
+    color: white;
+   }
+   .footer-list{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+   }
+.footer-list > li{
+    margin-right: 35px;
+}
+.footer-list-icon > a{
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    padding: 15px;
+   
+}
+.footer-list-icon{
+    padding-top: 30px;
+}
+.footer-last{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    padding-bottom: 40px;
+}
+/* section finish*/
+
+
 
 @media screen and (max-width:576px) {
     /*-----------*/
@@ -314,6 +432,7 @@ nav li a{
         flex-direction: column;
         margin: auto;
         align-items: center;
+        padding-left: 0px;
     }
 
     
@@ -353,5 +472,69 @@ nav li a{
         margin-top: 50px;
         margin-left: 50px;
     }
+    /*-----------*/
+    /*-----------*/
+    .second-main-section{
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .small-img-2{
+        position: static;
+    }
+    .main-section-description{
+      
+        margin-top: 0px;
+       padding-left: 0px;
+    }
+    .main-section-img-2{
+       
+        padding-left: 10px;
+        
+   }
+   .main-section-description > h1{
+    text-align: center;
+    font-size: 2rem;
 
    }
+   .main-section-description > p{
+       text-align: center;
+       font-size: 0.8rem;
+       line-height: 20px;
+   }
+   .main-section-img-2 img{
+    width: 250px;
+    padding-left: 40px;
+}
+.main-section-description{
+    /* width: 500px; */
+    padding-left:10px;
+}
+.small-img-2 img{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+    /*-----------*/
+    /*-----footer-section------*/
+
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 90%;
+        
+    }
+    .footer-list > li{
+        display: flex;
+       text-align: center;
+       padding-bottom: 20px;
+    }
+  .footer-list-icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .footer-list-icon{
+    padding-top: 0px;
+    font-size: 10px;
+  }
+
+}
