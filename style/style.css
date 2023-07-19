@@ -147,6 +147,7 @@ nav li a{
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+
 }
 .span-quote{
     font-size: 1.3rem;
@@ -534,17 +535,22 @@ footer{
 
     .main-section-for-banner{
         flex-direction: column;
+    
     }
     .banner-img-3{
     width: 23rem;
     }
     .banner-description-2{
         width: 100%;
-        text-align: center;
+       margin: 0 auto;
         padding-right: 0px;
+        text-align: center;
         
     }
-
+    .banner-description-p{
+        text-align: center;
+    }
+    
     /*-----------*/
     /*-----------*/
     .second-main-section{
